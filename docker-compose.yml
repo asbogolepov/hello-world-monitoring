@@ -10,7 +10,7 @@ networks:
 services:
   ## Flask app ##
   flask-app:
-    image: flask-app:1
+    image: asbogolepov/flask-monitoring
     container_name: flask-app
     ports:
       - 80:5000
